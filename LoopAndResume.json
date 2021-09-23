@@ -1,0 +1,58 @@
+console.log("            *** Hi, I am Arul D from Batch B28 WD ***");
+//********************************************* */
+console.log("----- For");
+var numbers = [ 1, 2, 3, 4, 5] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+//********************************************* */
+console.log("  ");
+console.log("----- For in");
+var human = {
+    planet:"Earth",
+    name: "Arul",
+    sex: "Male",
+    age: 21,
+ }; 
+ for (let x in human) {
+    console.log(x + ": "+ human[x])
+ }
+//********************************************* */
+console.log("  ");
+console.log("----- For of");
+var mycars = [{name:'RR'}, {name:'BMW'},  {name:'Ferrari'}];
+for (var car of mycars) 
+{
+console.log("i have " + car.name+ " car");
+}
+//********************************************* */
+console.log("  ");
+console.log("----- For Each");
+var names = ["Arul", "Abisekh", "Mohamad", "Yogesh", "Naveen"];
+names.forEach(function1);
+function function1(Name , index) {
+   console.log("Index Num in Array : "+index + " - As Name : "+Name);
+}
+//********************************************* */
+console.log("  ");
+console.log("----- My own resume data -----");
+var Myresume ={
+    Name  :  "Arul",
+    Birthdate    :  "03-11-2000",
+    Age   :  21,
+    Sex   :  "Male",
+    Nation : "Indian",
+};
+var skills ={
+    known : " c,c++,java",
+    Learning : "Web Development",
+    level : "Intermediate",
+}; 
+console.log("Personal Data ;");  
+ for (let a in Myresume) {
+    console.log("     "+a+" :  "+ Myresume[a]);
+ }
+ console.log("Skills ;");
+ for (let a in skills) {
+    console.log("     "+a+" :  "+ skills[a]);
+ }
